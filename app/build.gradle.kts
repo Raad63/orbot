@@ -21,9 +21,7 @@ fun getVersionName(): Provider<String> {
 configure<ApplicationExtension> {
     namespace = "org.torproject.android"
     compileSdk {
-        version = release(36) {
-            minorApiLevel = 1
-        }
+        version = release(37)
     }
 
     defaultConfig {
